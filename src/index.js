@@ -1,6 +1,27 @@
-import React from 'react'
-import styles from './styles.module.css'
+import React from 'react';
+import styles from './styles.module.css';
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
+export function Modal(props) {
+  const handleClick = (event) => {
+    if (event.target === event.currentTarget) {
+      props.onClose();
+    }
+  };
+
+  const handleKeyDown = (event) => {
+    if (event.key === 'Escape') {
+      props.onClose();
+    }
+  };
+
+  return (
+    <div
+      className={`${styles.modal}${props.open ? '' : ' ' + styles.disabled}`}
+      onClick={handleClick}
+      onKeyDown={handleKeyDown}
+      tabIndex={-1}
+    >
+      {props.children}
+    </div>
+  );
 }

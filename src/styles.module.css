@@ -1,9 +1,22 @@
 /* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: block;
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+}
+
+.modal.disabled {
+  display: none;
+}
+
+.modal:focus {
+  outline: none;
 }
