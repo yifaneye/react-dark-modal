@@ -15,9 +15,7 @@ const App = () => {
 
   return (
     <>
-      <button onClick={handleOpen}>
-        Open the modal
-      </button>
+      <button onClick={handleOpen}>Open the modal</button>
       <Modal open={isModalOpen} onClose={handleClose}>
         <h1>Click elsewhere to close the modal</h1>
       </Modal>
