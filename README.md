@@ -8,6 +8,9 @@ Simple React modal component as a transparent dark overlay 🌑
 
 ![react-dark-modal gif demo](https://yifanai.s3-ap-southeast-2.amazonaws.com/modal/modal.gif)
 
+🚀 [Try react-dark-modal on CodeSandbox](https://codesandbox.io/s/react-dark-modal-7lmjl?file=/src/App.js)
+
+
 ## Install
 
 ```bash
