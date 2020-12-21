@@ -54,4 +54,4 @@ export default App;
 
 ## License
 
-MIT © [yifaneye](https://github.com/yifaneye)
+MIT © [Yifan Ai](https://github.com/yifaneye)
