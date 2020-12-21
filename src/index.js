@@ -20,6 +20,7 @@ export function Modal(props) {
       onClick={handleClick}
       onKeyDown={handleKeyDown}
       tabIndex={-1}
+      style={{ ...props.style }}
     >
       {props.children}
     </div>
