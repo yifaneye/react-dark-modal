@@ -14,7 +14,7 @@ Simple React modal component as a transparent dark overlay 🌑
 ## Install
 
 ```bash
-npm install react-dark-modal
+npm install --save react-dark-modal
 ```
 OR
 ```bash
@@ -48,6 +48,8 @@ const App = () => {
     </>
   );
 };
+
+export default App;
 ```
 
 ## License
