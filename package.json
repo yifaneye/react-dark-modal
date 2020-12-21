@@ -49,5 +49,18 @@
   },
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "modal",
+    "lightbox",
+    "dark modal",
+    "dark lightbox",
+    "transparent",
+    "dark",
+    "overlay",
+    "react",
+    "react component",
+    "customizable",
+    "simple"
   ]
 }
