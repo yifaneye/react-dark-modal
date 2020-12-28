@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './styles.module.css';
 
-export function Modal(props) {
+export const Modal = (props) => {
   const handleClick = (event) => {
     if (event.target === event.currentTarget) {
       props.onClose();
@@ -26,4 +26,4 @@ export function Modal(props) {
       {props.children}
     </div>
   );
-}
+};
